@@ -1,0 +1,24 @@
+{
+    "name": "Good Bing",
+    "version": "1.0",
+    "description": "Redirects new tabs to bing chat and sets the background to the mountains video from the bing homepage",
+    "manifest_version": 3,
+    "permissions": [
+        "background",
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "newtab.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.bing.com/*"
+            ],
+            "js": [
+                "good_bing.js"
+            ]
+        }
+    ]
+}
