@@ -1,7 +1,7 @@
 {
     "name": "Good Bing",
     "version": "1.0",
-    "description": "Redirects new tabs in edge to bing chat and sets the background to a mountain video from the bing homepage",
+    "description": "Redirects new tabs in edge to bing chat and sets the background to a video of Mount Danxia from the bing homepage",
     "manifest_version": 3,
     "permissions": [
         "background",
